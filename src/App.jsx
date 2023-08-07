@@ -26,7 +26,7 @@ function App() {
         <h4>Código: 14888574</h4>
         <h4>Nombre: Luis Antonio Almeida Paz</h4>
         <h4>Código: 1085265896</h4>
-        <a href='index.html'>Click para ir al proyecto</a>
+        <a href='inicio.html'>Click para ir al proyecto</a>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
