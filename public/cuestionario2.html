@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>Fase 3 </title>  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/estilo.css">       
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+        <script src="bootstrap/bootstrap.bundle.min.js"></script>
+        
+    </head>    
+    <body class="contenedor">  
+      <header><h2 style="text-align: center;">Herramientas de Diseño web con CSS</h2></header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="audio.html">Audio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tema1.html">CSS-Grid</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tema2.html">BOX-Model</a>
+              </li>             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Cuestionarios</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="cuestionario.html">Cuestionario CSS-GRID</a></li>
+                  <li><a class="dropdown-item" href="cuestionario1.html">Cuestionario Selectores CSS</a></li>
+                  <li><a class="dropdown-item" href="cuestionario2.html">Cuestionario BOX-Model</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <section style="padding: 10px;font-size: small;">
+          <h3 id="resultado">Responda las siguientes preguntas</h3> 
+          <div>
+            <form name="formulario">
+
+              <h5>1. La parte que compone el texto de una lista de elementos es:</h5>
+  
+              <input type="radio" name="r1" value="a"> a. Link <br>
+              <input type="radio" name="r1" value="b"> b. Position <br>
+              <input type="radio" name="r1" value="c"> c. Content <br>
+  
+              <h5>2. La propiedad que se muestra por detrás del contenido y el espacio de relleno es:</h5>
+  
+              <input type="radio" name="r2" value="a"> a. Background color <br>
+              <input type="radio" name="r2" value="b"> b. Display <br>
+              <input type="radio" name="r2" value="c"> c. Color <br>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+              <h5>3. La parte del espacio libre opcional existente entre el contenido y el borde:</h5>
+  
+              <input type="radio" name="r3" value="a"> a. Border <br>
+              <input type="radio" name="r3" value="b"> b. Padding <br>
+              <input type="radio" name="r3" value="c"> c. Content <br>
+  
+              <h5>4. La línea que encierra completamente el contenido y su relleno es:</h5>
+  
+              <input type="radio" name="r4" value="a"> a. Border <br>
+              <input type="radio" name="r4" value="b"> b. Position <br>
+              <input type="radio" name="r4" value="c"> c. Content <br>
+  
+              <h5>5. La propiedad con la que se realiza la separación opcional existente entre la caja y el resto de cajas adyacentes es:</h5>
+  
+              <input type="radio" name="r5" value="a"> a. Single <br>
+              <input type="radio" name="r5" value="b"> b. Margin <br>
+              <input type="radio" name="r5" value="c"> c. Border<br>
+  
+  
+              <input type="button" value="Enviar" onclick="procesarRespuestas()">
+          </form>
+          </div>
+          <script src="js/script2.js"></script>
+        </section>     
+      </main>
+      <aside>
+        <div class="sidebar">
+          <a href="index.html"><i class="fa fa-light fa-home"></i> Inicio</a>
+          <a href="audio.html"><i class="fa fa-light fa-headphones"></i> Audio</a>
+          <a href="tema1.html"><i class="fa fa-light fa-book"></i> CSS-Grid</a>
+          <a href="tema2.html"><i class="fa fa-light fa-book"></i> BOX-Model</a>
+          <a href="nosotros.html"><i class="fa fa-light fa-address-book"></i> Nosotros</a>
+        </div>
+      </aside>
+      <footer class="centrado">
+        <p>
+          © Copyriht Universidad Nacional Abierta y a distancia 2023<br>
+          Ultima actualización: 02/07/2023
+        </p>
+      </footer>
+    </body>
+</html>

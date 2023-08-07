@@ -1,0 +1,100 @@
+
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+    'A A A A'
+    'B B B B'
+    'D C C C'
+    'E E E E'
+    
+}
+header{
+    grid-area: A;
+    background-color: #025464;
+    color: #fff;
+}
+nav{
+    grid-area: B;
+    background-color: #fff;
+}
+main{
+    grid-area: C;
+}
+aside{
+    grid-area: D;
+    background-color: #111;    
+}
+footer{
+    grid-area: E;
+    background-color: #025464;
+    color: #fff;
+}
+ /*******Estilo para la barra de navegación*****************/    
+ .menuh {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .menuh>li {
+    float: left;
+  }
+  .menuh>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;           
+  }
+  .menuh>li a:hover {
+    /*background-color: #111;*/
+    background-color: #fff;
+    color: #000;
+    /*border: solid 1px #000;*/        
+  }  
+/***********Fin estilo barra de navegación*************/   
+/***********Barra Vertical*****************************/
+.sidebar {
+    /*height: 100%;   position: fixed;  z-index: 1;  top: 0;   left: 0;*/
+    width: 160px;
+    background-color: #111;
+    /*overflow-x: hidden;*/
+    padding-top: 16px;    
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }  
+/***********Fin barra vertical*************************/
+.centrado{
+    text-align: center;
+    padding: 10px;
+}
+.roundimg {
+  border-radius: 50%;
+}
+
+@media (max-width:500px) {
+  .contenedor{
+    display: grid;
+    grid-template-areas: 
+    'A A A A'
+    'B B B B'
+    'D D D D'
+    '. C C .'
+    'E E E E'    
+  }
+}
